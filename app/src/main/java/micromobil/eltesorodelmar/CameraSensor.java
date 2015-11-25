@@ -1,13 +1,9 @@
 package micromobil.eltesorodelmar;
-
-
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-
 import com.threed.jpct.SimpleVector;
-
 import micromobil.eltesorodelmar.GL.Render;
 
 public class CameraSensor implements SensorEventListener {
