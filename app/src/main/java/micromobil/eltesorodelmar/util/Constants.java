@@ -3,7 +3,7 @@ package micromobil.eltesorodelmar.util;
 import com.threed.jpct.SimpleVector;
 
 public class Constants {
-
+    public static final String LOG_APP ="ElTesosoDelMar" ;
     public static final int STAGE_1 = 0;
     public static final int STAGE_2 = 1;
     public static final int STAGE_3 = 2;

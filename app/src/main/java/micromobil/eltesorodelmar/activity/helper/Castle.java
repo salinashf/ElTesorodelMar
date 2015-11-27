@@ -4,6 +4,7 @@ package micromobil.eltesorodelmar.activity.helper;
 import android.app.Activity;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.WindowManager;
@@ -19,18 +20,16 @@ import micromobil.eltesorodelmar.GL.RenderIntro;
  *         Clase que describe una introcudcion de las clases un mapa a donde esta el catillo
  *         dibuja un render de  donde esta el mapa
  */
-public class Castle extends Activity {
+public class Castle extends Activity  {
+    public static final String LOG_APP ="ElTesosoDelMar" ;
     private GLSurfaceView mGLView;
     private RenderIntro renderer = null;
-
     public void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         mGLView = new GLSurfaceView(getApplication());
 
         // fullscreen
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 
         mGLView.setEGLConfigChooser(new GLSurfaceView.EGLConfigChooser() {
@@ -68,16 +67,16 @@ public class Castle extends Activity {
         }
         return true;
     }
-
     @Override
     public void onStop() {
-        System.out.println("ActivityRender onStop");
+        Log.d(LOG_APP, "ActivityRender onStop");
         finish();
         super.onStop();
     }
 
+    @Override
     public void onDestroy() {
-        System.out.println("ActivityRender onDestroy");
-        super.onStop();
+        Log.d(LOG_APP, "Castle onDestroy") ;
+        //super.onStop();
     }
 }

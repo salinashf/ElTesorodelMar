@@ -8,13 +8,10 @@ import java.util.HashMap;
 
 
 public class SoundManager {
-
     private SoundPool mSoundPool;
     private HashMap<Integer, Integer> mSoundPoolMap;
     private AudioManager mAudioManager;
     private Context mContext;
-
-
     public SoundManager() {
 
     }

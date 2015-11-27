@@ -1,34 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity" >
 
-    <android.support.design.widget.AppBarLayout
+    <micromobil.eltesorodelmar.poc.physics.render.MyRenderer
+        android:id="@+id/renderer"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:id="@+id/object_map_layout"
+        android:layout_width="140dip"
+        android:layout_height="140dip"
+        android:layout_gravity="top|left"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="8dip"
+        android:orientation="vertical" >
+    </LinearLayout>
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-    </android.support.design.widget.AppBarLayout>
-
-    <include layout="@layout/content_main" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        android:src="@android:drawable/ic_dialog_email" />
+        android:layout_gravity="right|bottom"
+        android:orientation="vertical" >
 
-</android.support.design.widget.CoordinatorLayout>
+        <Button
+            android:id="@+id/noon_or_dark_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_compass"
+            android:text="昼夜切替" />
+
+        <Button
+            android:id="@+id/start_domino_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_media_play"
+            android:text="ドミノ開始" />
+
+        <Button
+            android:id="@+id/init_cube_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_revert"
+            android:text="初期位置" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/analog_stick_layout"
+        android:layout_width="140dip"
+        android:layout_height="140dip"
+        android:layout_gravity="bottom|left"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</FrameLayout>

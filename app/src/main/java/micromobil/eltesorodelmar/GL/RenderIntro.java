@@ -140,7 +140,7 @@ public class RenderIntro extends GLSurfaceView implements Renderer {
 
 
         logo = new Texture(res.openRawResource(R.raw.logo), true);
-        letras = new Texture(res.openRawResource(R.drawable.letras2), true);
+        letras = new Texture(res.openRawResource(R.drawable.letrascastillo), true);
 
         //cargar castillo
         castle = Object3D.mergeAll(Loader.load3DS(res.openRawResource(R.raw.skpfile), 1.5f));

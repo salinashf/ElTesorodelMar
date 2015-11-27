@@ -1,7 +1,14 @@
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build
-/captures
+git rm --cached .gradle
+git rm --cached /local.properties
+git rm --cached /.idea/workspace.xml
+git rm --cached .DS_Store
+
+
+
+git rm --cached /.idea/libraries
+
+git rm --cached /build
+git rm --cached/captures
+
+
+

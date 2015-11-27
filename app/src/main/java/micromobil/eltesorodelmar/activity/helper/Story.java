@@ -32,16 +32,11 @@ public class Story extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // No Statusbar
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         this.addContentView(new IntroView(this, this), new LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.FILL_PARENT));
         this.addContentView(new layout2(this), new LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.FILL_PARENT));
         this.addContentView(new layout(this), new LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.FILL_PARENT));
     }
-
-
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         super.onKeyDown(keyCode, event);
         if (keyCode == KeyEvent.KEYCODE_BACK) {

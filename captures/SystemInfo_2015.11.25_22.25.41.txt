@@ -1,0 +1,32 @@
+TASK micromobil.eltesorodelmar id=20
+  ACTIVITY micromobil.eltesorodelmar/.activity.helper.CastleActivity 2fd46abb pid=25077
+    Local Activity 18566265 State:
+      mResumed=true mStopped=false mFinished=false
+      mLoadersStarted=true
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 310mcc260mnc en_US ldltr sw400dp w400dp h567dp 320dpi nrml port finger qwerty/v/v -nav/h s.5}
+    FragmentManager misc state:
+      mActivity=micromobil.eltesorodelmar.activity.helper.CastleActivity@18566265
+      mContainer=android.app.Activity$1@2de0db3a
+      mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=4416449 (44948 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{146533eb V.E..... R....... 0,0-800,1280}
+        android.widget.LinearLayout{17aae548 V.E..... ........ 0,0-800,1184}
+          android.view.ViewStub{34fbfe1 G.E..... ......I. 0,0-0,0 #102036e}
+          android.widget.FrameLayout{3e717106 V.E..... ........ 0,50-800,1184 #1020002 android:id/content}
+        android.view.View{176123c7 V.ED.... ........ 0,1184-800,1280 #1020030 android:id/navigationBarBackground}
+    Looper (main, tid 1) {2d0df4}
+      (Total messages: 0, idling=false, quitting=false)
