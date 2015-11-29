@@ -4,7 +4,6 @@ import com.bulletphysics.dynamics.DynamicsWorld;
 import com.bulletphysics.dynamics.RigidBody;
 import com.bulletphysics.linearmath.DefaultMotionState;
 import com.bulletphysics.linearmath.Transform;
-
 import javax.microedition.khronos.opengles.GL10;
 import javax.vecmath.Vector3f;
 

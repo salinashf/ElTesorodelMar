@@ -7,11 +7,9 @@ import com.bulletphysics.collision.shapes.CollisionShape;
 import com.bulletphysics.dynamics.DynamicsWorld;
 import com.bulletphysics.dynamics.RigidBody;
 import com.bulletphysics.linearmath.DefaultMotionState;
-
 import javax.microedition.khronos.opengles.GL10;
 import javax.microedition.khronos.opengles.GL11;
 import javax.vecmath.Vector3f;
-
 import micromobil.eltesorodelmar.R;
 import micromobil.eltesorodelmar.poc.physics.render.World.Grobal;
 import micromobil.eltesorodelmar.poc.physics.tool.RenderUtil;

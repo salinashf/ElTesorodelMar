@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\libs\jbullet.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3e9357c56c03ecdd2670eb09b8d63f94c1f85459">
+        <dex dex="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\build\intermediates\pre-dexed\debug\jbullet-e597ce58464b8cb128e786a547c8731b57c2441b.jar" />
+    </item>
+    <item
+        jar="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\libs\jpct_ae.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1b2f681e89987b8f4d5b1b39349f6122d5d252c3">
+        <dex dex="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\build\intermediates\pre-dexed\debug\jpct_ae-2f33f581c37c2559c0e9028e3c0353eefcbc9665.jar" />
+    </item>
+    <item
+        jar="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\libs\vecmath.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8624267a63f22a052c38d2423cd24f4418e1bceb">
+        <dex dex="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\build\intermediates\pre-dexed\debug\vecmath-5602f0c0f48d9c10ddd8c00645d1a59e99e25929.jar" />
+    </item>
+    <item
+        jar="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\build\intermediates\pre-dexed\debug\classes-5fee8d94b61da3a67dfd08445a8161d245af11c6.jar" />
+    </item>
+    <item
+        jar="F:\AndroidV2\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-9c91cf870dcab690a125f5c8a1caac5ae1e06476.jar" />
+    </item>
+    <item
+        jar="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-463d7d6f19c7f6a8b19b7584af247fef08046a12.jar" />
+    </item>
+    <item
+        jar="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\build\intermediates\pre-dexed\debug\classes-582ce0da88f5bd40ebd601336f72a7ae55ab75b0.jar" />
+    </item>
+    <item
+        jar="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\WorkSpaceAndroidStudioProjects\GitHub\ElTesorodelMar\app\build\intermediates\pre-dexed\debug\classes-07bdcac705db034c1b6e8adad1ad37c83ebb1c28.jar" />
+    </item>
+
+</items>

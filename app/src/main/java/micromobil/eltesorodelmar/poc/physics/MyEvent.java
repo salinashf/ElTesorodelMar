@@ -5,7 +5,7 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 
-import micromobil.eltesorodelmar.poc.R;
+import micromobil.eltesorodelmar.R;
 import micromobil.eltesorodelmar.poc.physics.render.Camera3D;
 import micromobil.eltesorodelmar.poc.physics.render.MyRenderer;
 import micromobil.eltesorodelmar.poc.physics.render.World;
